@@ -1,0 +1,12 @@
+node_modules/
+db.json
+public/
+*.log
+.history
+.vscode
+.DS_Store
+.deploy*/
+.idea/
+
+cypress/screenshots
+cypress/videos

@@ -1,0 +1,116 @@
+{
+  "compilerOptions": {
+    "allowJs": false,
+    "allowSyntheticDefaultImports": true,
+    "baseUrl": "node_modules",
+    "esModuleInterop": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "lib": [
+      "dom",
+      "esnext"
+    ],
+    "module": "esnext",
+    "moduleResolution": "node",
+    "noEmit": true,
+    "preserveConstEnums": true,
+    "removeComments": false,
+    "skipLibCheck": false,
+    "sourceMap": true,
+    "strict": true,
+    "target": "esnext",
+    "resolveJsonModule": true,
+    "paths": {
+      "shoppingTools/*": [
+        "../src/apps/shopping-tools/*"
+      ],
+      "postProspect/*": [
+        "../src/apps/post-prospect/*"
+      ],
+      "used/*": [
+        "../src/apps/used/*"
+      ],
+      "dfe/*": [
+        "../src/apps/dfe/*"
+      ],
+      "trade/*": [
+        "../src/apps/trade/*"
+      ],
+      "home/*": [
+        "../src/apps/home/*"
+      ],
+      "pricesNew/*": [
+        "../src/apps/prices-new/*"
+      ],
+      "register/*": [
+        "../src/apps/register/*"
+      ],
+      "assets/*": [
+        "../assets/*"
+      ],
+      "shared/*": [
+        "../src/shared/*"
+      ],
+      "config/*": [
+        "../src/config/*"
+      ],
+      "pages/*": [
+        "../cypress/pages/*"
+      ],
+      "fixtures/*": [
+        "../cypress/fixtures/*"
+      ],
+      "requests/*": [
+        "../cypress/requests/*"
+      ],
+      "react-redux-consumer": [
+        "../src/shared/react-redux-consumer"
+      ],
+      "react-redux-dealer": [
+        "../src/shared/react-redux-dealer"
+      ],
+      "reselect-consumer": [
+        "../src/shared/reselect-consumer"
+      ],
+      "reselect-dealer": [
+        "../src/shared/reselect-dealer"
+      ],
+      "battery-pack": [
+        "../packages/battery-pack"
+      ],
+      "@libs/filter-empty": [
+        "../libs/filter-empty/index.ts"
+      ],
+      "@libs/autorack": [
+        "../libs/autorack/index.ts"
+      ],
+      "@libs/type-guards": [
+        "../libs/type-guards/index.ts"
+      ],
+      "@libs/consumer/partners": [
+        "../libs/consumer/partners/index.ts"
+      ],
+      "@libs/cookies": [
+        "../libs/cookies/index.ts"
+      ],
+      "@libs/routes": [
+        "../libs/routes/index.ts"
+      ]
+    },
+    "types": [
+      "jest",
+      "node",
+      "webpack-env",
+      "./types/any"
+    ]
+  },
+  "include": [
+    "src",
+    "libs",
+    "tools",
+    "packages",
+    "server",
+    "docs",
+    "types"
+  ]
+}
