@@ -321,20 +321,5 @@
     "webpack-node-externals": "1.7.2",
     "webpack-stats-plugin": "0.2.1"
   },
-  "main": "index.js",
-  "pre-commit": [
-    "prettier-staged"
-  ],
-  "lint-staged": {
-    "*.{js,ts,tsx,json,scss,md}": [
-      "node ./scripts/checkPrettierVersion.js",
-      "prettier --write",
-      "git add"
-    ]
-  },
-  "jest": {
-    "setupFiles": [
-      "./src/__tests__/crashOnGluestickTest.js"
-    ]
-  }
+  "main": "index.js"
 }
